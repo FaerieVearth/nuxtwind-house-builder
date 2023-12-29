@@ -37,6 +37,10 @@
   </generic-panel>
 
   <generic-panel>
+    <EditorContainerComponent/>
+  </generic-panel>
+
+  <generic-panel>
     <div class="flex flex-col">
       <h1 class="text-3xl md:text-5xl mb-5">Getting Started</h1>
       <p class="md:text-lg">Read <a href="https://github.com/OSSPhilippines/nuxtwind-daisy#readme" class="text-primary">the documentation</a> on how to start quickly.</p>
