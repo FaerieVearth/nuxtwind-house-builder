@@ -1,5 +1,5 @@
 <template>
-  <TresCanvas preset="realistic">
+  <TresCanvas window-size class="!relative !w-auto !h-auto">
     <TresPerspectiveCamera :args="[45, 10, 0.1, 1000]" :position="[5, 5, 5]"/>
     <OrbitControls :target="new Vector3(objectCenter, 0, 0)" :enable-damping="true" :damping-factor="0.05" :auto-rotate="false"
       :enable-pan="false" :enable-zoom="true" :enable-rotate="true" />
